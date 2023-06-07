@@ -1,7 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .top-content {
   background-image: url(./images/homepage.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   color: white;
   padding: 100px;
 }
@@ -10,6 +16,12 @@
   justify-content: space-around;
   margin-top: -70px;
   font-weight: bold;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .icon {
@@ -37,7 +49,7 @@
 .second-part {
   display: flex;
   justify-content: space-around;
-  margin: 10%;
+  margin: 50px auto;
 }
 
 .second-part-right-content {
