@@ -1,0 +1,73 @@
+.top-content {
+  background-image: url(./images/homepage.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  padding: 100px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -70px;
+  font-weight: bold;
+}
+
+.icon {
+  height: 30px;
+  width: 40px;
+}
+
+.top-middle {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  padding: 50px;
+}
+
+.second-part {
+  display: flex;
+  justify-content: space-around;
+  margin: 10%;
+}
+
+.second-part-right-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.windows {
+  background-color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.browser {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.login {
+  background-color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+}
